@@ -1,0 +1,85 @@
+
+h1 { /* Titulos principales */
+  font-size: 30px;
+
+}
+
+h2 { /* Titulos secundarios*/
+  font-size: 26px;
+}
+
+ul{ /* Sacarle los puntos del enlistado */
+  list-style-type: none;
+}
+
+li{ /* espacio entre botones*/
+  padding: 2px;
+}
+
+.Contain1 {
+  border-color: black;
+  border-style: dashed;
+}
+
+.text {
+  align-items: center;
+  height: 50px;
+}
+
+.button {
+  font: times;
+  font-style: italic;
+  background-color: #0581d4; 
+  border:  none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  opacity: 80%;
+  }
+
+a.button:hover{
+  font: times;
+  font-style: italic;
+  background-color: #0331c7; 
+  border:  none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 21px;
+  opacity: 80%;
+
+}
+
+#contenedor-apa {
+  display: flex;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  margin: 100px 0; /* Margin top and bottom */
+}
+
+#resultados {
+  margin-top: 20px; /* Space above results section */
+  text-align: left; /* Align text to the left */
+}
+
+.centrado {
+  margin-top: 200px; /* Space above button */
+  text-align: center;
+}
+
+#contenedor-apa label {
+  margin-right: 10px; /* Space between label and input */
+}
+
+#resultados h3 {
+  margin-bottom: 10px; /* Space below heading */
+}
+
+#resultados p {
+  margin-bottom: 5px; /* Space between paragraphs */
+}
